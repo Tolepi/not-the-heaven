@@ -16,6 +16,13 @@ Install:
 - Move all the files to ~/.config
 - Enjoy
 
+TO APPLY FIREFOX STARTPAGE:
+- Go to about:settings#home
+- In the "Startpage and new windows" part, insert the path to the index.html file, it should be this:
+- file:///home/USERNAME/.config/startpage/index.html
+- Replace "USERNAME" with your well, username duhhh.
+- For new tabs you should use an extension like New Tab Override and add the index.html file to that
+
 Previews:
 - <img width="1366" height="768" alt="screenshot_20260529_083420" src="https://github.com/user-attachments/assets/46fac396-9226-4471-9265-a142465a8f8f" />
 
