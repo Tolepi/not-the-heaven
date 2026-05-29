@@ -10,6 +10,7 @@ Dependencies:
 - Wofi
 - Waybar
 - Fastfetch
+- Terminess Nerd Font and Ubuntu Mono
 
 Install:
 - Clone this repository
