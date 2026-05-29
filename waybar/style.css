@@ -1,0 +1,65 @@
+/* Estilo Zero Mono Light - Panel Superior (Líneas Finas) */
+* {
+    font-family: "Terminess Nerd Font";
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+}
+
+window#waybar {
+    background-color: #ffffff;
+    color: #000000;
+    /* Reducido a 1px para que sea una línea sutil */
+    border-bottom: 1px solid #000000;
+}
+
+/* Espacio de trabajo (Workspaces) */
+#workspaces button {
+    padding: 0 12px;
+    background-color: transparent;
+    color: #777777;
+    border-right: 1px solid #e5e5e5;
+}
+
+#workspaces button.focused {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#workspaces button:hover {
+    background-color: #e5e5e5;
+    color: #000000;
+}
+
+/* Ventana activa en el centro */
+#window {
+    color: #000000;
+    background-color: transparent;
+}
+
+/* Módulos de información (Derecha) */
+#clock, #cpu, #memory, #pulseaudio, #tray {
+    padding: 0 10px;
+    color: #000000;
+    background-color: transparent;
+}
+
+/* Líneas de separación verticales estilizadas a 1px también */
+#cpu, #memory, #pulseaudio, #clock {
+    border-left: 1px solid #000000;
+}
+
+#tray {
+    border-left: 1px solid #000000;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+#mode {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0 12px;
+}
